@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhishek Singh — Graphic Designer</title>
+<meta name="description" content="Abhishek Singh, graphic designer — brand identity, editorial design, packaging and digital design.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Blueprint grid overlay (signature element, toggled by nav button) -->
+<div class="blueprint" id="blueprint" aria-hidden="true">
+  <div class="blueprint__col"></div><div class="blueprint__col"></div><div class="blueprint__col"></div>
+  <div class="blueprint__col"></div><div class="blueprint__col"></div><div class="blueprint__col"></div>
+</div>
+
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="header__inner">
+    <a href="#top" class="logo" aria-label="Abhishek Singh, home">
+      <span class="logo__mark">AS</span>
+      <span class="logo__text">Abhishek&nbsp;Singh</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <ul class="nav__list">
+        <li><a href="#work" class="nav__link">Work</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#process" class="nav__link">Process</a></li>
+        <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <button class="grid-toggle" id="gridToggle" type="button" aria-pressed="false">
+        <span class="grid-toggle__dot"></span> Grid
+      </button>
+      <a href="#contact" class="btn btn--small">Start a project</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <ul>
+    <li><a href="#work" class="mobile-nav__link">Work</a></li>
+    <li><a href="#services" class="mobile-nav__link">Services</a></li>
+    <li><a href="#about" class="mobile-nav__link">About</a></li>
+    <li><a href="#process" class="mobile-nav__link">Process</a></li>
+    <li><a href="#testimonials" class="mobile-nav__link">Testimonials</a></li>
+    <li><a href="#contact" class="mobile-nav__link">Contact</a></li>
+  </ul>
+  <a href="tel:+919831695338" class="mobile-nav__contact">+91 98316 95338</a>
+</div>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="coords" id="coords">X 000 · Y 000</div>
+    <p class="eyebrow reveal" data-reveal>01 / Graphic Designer, Kolkata</p>
+    <h1 class="hero__title">
+      <span class="hero__line-wrap"><span class="hero__line" data-line style="--d:0">Abhishek</span></span>
+      <span class="hero__line-wrap"><span class="hero__line" data-line style="--d:1">Singh</span></span>
+    </h1>
+    <p class="hero__tagline reveal" data-reveal style="--d:2">
+      I design brand systems, editorial layouts and interfaces that stay clear under pressure —
+      built on a grid, not a guess.
+    </p>
+    <div class="hero__actions reveal" data-reveal style="--d:3">
+      <a href="#work" class="btn btn--primary">View the work <span class="btn__arrow">→</span></a>
+      <a href="#contact" class="btn btn--ghost">Start a project</a>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll to the next section">
+      <span class="scroll-cue__line"></span> Scroll
+    </a>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Brand Identity</span><span>·</span><span>Editorial Design</span><span>·</span>
+      <span>Packaging</span><span>·</span><span>Art Direction</span><span>·</span>
+      <span>UI / UX</span><span>·</span><span>Typography</span><span>·</span>
+      <span>Illustration</span><span>·</span>
+      <span>Brand Identity</span><span>·</span><span>Editorial Design</span><span>·</span>
+      <span>Packaging</span><span>·</span><span>Art Direction</span><span>·</span>
+      <span>UI / UX</span><span>·</span><span>Typography</span><span>·</span>
+      <span>Illustration</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="about__inner">
+      <div class="about__visual reveal" data-reveal>
+        <div class="about__card">
+          <span class="about__card-mark">AS</span>
+          <div class="about__card-lines" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__content">
+        <p class="eyebrow reveal" data-reveal>02 / About</p>
+        <h2 class="section-title reveal" data-reveal>
+          Design that earns its<br>place on the page.
+        </h2>
+        <p class="about__text reveal" data-reveal>
+          I'm Abhishek — a graphic designer who treats every project like a system, not a single
+          image. My work starts with a grid, a type scale and a purpose, so the final piece holds
+          up whether it's a logo mark, a 40-page report or a product interface. I care about
+          restraint: the right idea, said clearly, beats a louder one said twice.
+        </p>
+        <ul class="about__stats reveal" data-reveal>
+          <li><span class="about__stat-num">40+</span><span class="about__stat-label">Projects shipped</span></li>
+          <li><span class="about__stat-num">25+</span><span class="about__stat-label">Happy clients</span></li>
+          <li><span class="about__stat-num">5</span><span class="about__stat-label">Years designing</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <p class="eyebrow reveal" data-reveal>03 / Services</p>
+    <h2 class="section-title reveal" data-reveal>What I can build for you</h2>
+
+    <div class="services__grid">
+      <article class="service-card reveal" data-reveal>
+        <span class="service-card__num">01</span>
+        <h3>Brand Identity</h3>
+        <p>Logo systems, colour, type and guidelines that hold together across every touchpoint.</p>
+      </article>
+      <article class="service-card reveal" data-reveal>
+        <span class="service-card__num">02</span>
+        <h3>Editorial &amp; Print</h3>
+        <p>Reports, brochures and books designed around a grid that respects the reader.</p>
+      </article>
+      <article class="service-card reveal" data-reveal>
+        <span class="service-card__num">03</span>
+        <h3>Packaging Design</h3>
+        <p>Structure and surface design that stands out on a shelf and survives production.</p>
+      </article>
+      <article class="service-card reveal" data-reveal>
+        <span class="service-card__num">04</span>
+        <h3>UI / UX Design</h3>
+        <p>Clean, calm digital interfaces — wireframe to a polished, developer-ready screen.</p>
+      </article>
+      <article class="service-card reveal" data-reveal>
+        <span class="service-card__num">05</span>
+        <h3>Art Direction</h3>
+        <p>Setting the visual language for a campaign, then keeping every asset on-brief.</p>
+      </article>
+      <article class="service-card reveal" data-reveal>
+        <span class="service-card__num">06</span>
+        <h3>Illustration</h3>
+        <p>Custom icons, spot illustrations and diagrams built to match your brand's voice.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ WORK / GALLERY ============ -->
+  <section class="work" id="work">
+    <p class="eyebrow reveal" data-reveal>04 / Selected Work</p>
+    <h2 class="section-title reveal" data-reveal>A few projects worth a closer look</h2>
+
+    <div class="work__filters reveal" data-reveal role="tablist" aria-label="Filter projects by category">
+      <button class="filter-btn is-active" data-filter="all" type="button">All</button>
+      <button class="filter-btn" data-filter="branding" type="button">Branding</button>
+      <button class="filter-btn" data-filter="editorial" type="button">Editorial</button>
+      <button class="filter-btn" data-filter="digital" type="button">Digital</button>
+      <button class="filter-btn" data-filter="packaging" type="button">Packaging</button>
+    </div>
+
+    <div class="work__grid" id="workGrid">
+
+      <button class="project-card reveal" data-reveal data-category="branding" type="button"
+        data-title="Meridian — Brand Identity" data-role="Brand identity, logo system, guidelines"
+        data-desc="A full identity rebuild for a boutique architecture studio — a mark that reads as a floor plan from one angle and a horizon line from another, paired with a quiet, confident type system.">
+        <span class="project-card__art art-1" aria-hidden="true"></span>
+        <span class="project-card__meta">
+          <span class="project-card__tag">Branding</span>
+          <span class="project-card__title">Meridian</span>
+        </span>
+      </button>
+
+      <button class="project-card reveal" data-reveal data-category="editorial" type="button"
+        data-title="Fieldnotes — Annual Report" data-role="Editorial design, layout system, print"
+        data-desc="A 48-page annual report built on a strict 8-column grid, using a single accent colour to guide readers through dense data without ever feeling heavy.">
+        <span class="project-card__art art-2" aria-hidden="true"></span>
+        <span class="project-card__meta">
+          <span class="project-card__tag">Editorial</span>
+          <span class="project-card__title">Fieldnotes</span>
+        </span>
+      </button>
+
+      <button class="project-card reveal" data-reveal data-category="digital" type="button"
+        data-title="Northbound — Product UI" data-role="UI / UX design, design system"
+        data-desc="A calm, focused interface for a project-planning tool, with a component library designed to scale across web and mobile without losing its personality.">
+        <span class="project-card__art art-3" aria-hidden="true"></span>
+        <span class="project-card__meta">
+          <span class="project-card__tag">Digital</span>
+          <span class="project-card__title">Northbound</span>
+        </span>
+      </button>
+
+      <button class="project-card reveal" data-reveal data-category="packaging" type="button"
+        data-title="Loam — Packaging System" data-role="Structural design, print, packaging"
+        data-desc="Packaging for a small-batch tea brand — unbleached stock, a single spot colour per blend, and a fold structure that doubles as a steeping guide."
+      >
+        <span class="project-card__art art-4" aria-hidden="true"></span>
+        <span class="project-card__meta">
+          <span class="project-card__tag">Packaging</span>
+          <span class="project-card__title">Loam</span>
+        </span>
+      </button>
+
+      <button class="project-card reveal" data-reveal data-category="branding" type="button"
+        data-title="Halcyon — Visual Identity" data-role="Brand identity, art direction"
+        data-desc="Identity and campaign direction for a wellness studio — soft geometry and a restrained palette that feels calm without slipping into cliché.">
+        <span class="project-card__art art-5" aria-hidden="true"></span>
+        <span class="project-card__meta">
+          <span class="project-card__tag">Branding</span>
+          <span class="project-card__title">Halcyon</span>
+        </span>
+      </button>
+
+      <button class="project-card reveal" data-reveal data-category="editorial" type="button"
+        data-title="Longform — Magazine Redesign" data-role="Editorial design, typography"
+        data-desc="A quarterly culture magazine redesign — a two-typeface system and a flexible grid that lets long-form writing breathe across print and web.">
+        <span class="project-card__art art-6" aria-hidden="true"></span>
+        <span class="project-card__meta">
+          <span class="project-card__tag">Editorial</span>
+          <span class="project-card__title">Longform</span>
+        </span>
+      </button>
+
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="process" id="process">
+    <p class="eyebrow reveal" data-reveal>05 / Process</p>
+    <h2 class="section-title reveal" data-reveal>How a project moves</h2>
+
+    <div class="process__list">
+      <div class="process__step reveal" data-reveal>
+        <span class="process__num">01</span>
+        <div>
+          <h3>Discover</h3>
+          <p>Understand the brief, the audience and what "success" actually looks like.</p>
+        </div>
+      </div>
+      <div class="process__step reveal" data-reveal>
+        <span class="process__num">02</span>
+        <div>
+          <h3>Define</h3>
+          <p>Set the grid, type scale and palette — the system everything else follows.</p>
+        </div>
+      </div>
+      <div class="process__step reveal" data-reveal>
+        <span class="process__num">03</span>
+        <div>
+          <h3>Design</h3>
+          <p>Explore directions, narrow to one, and refine it until nothing is arbitrary.</p>
+        </div>
+      </div>
+      <div class="process__step reveal" data-reveal>
+        <span class="process__num">04</span>
+        <div>
+          <h3>Deliver</h3>
+          <p>Hand off production-ready files, guidelines and support after launch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials" id="testimonials">
+    <p class="eyebrow reveal" data-reveal>06 / Testimonials</p>
+    <h2 class="section-title reveal" data-reveal>What clients say</h2>
+
+    <div class="testimonial-carousel reveal" data-reveal>
+      <div class="testimonial-track" id="testimonialTrack">
+        <blockquote class="testimonial">
+          <p>“Abhishek gave our brand a system, not just a logo. Three years on, every new
+          designer we hire can pick it up in a day.”</p>
+          <footer><span class="testimonial__name">Rhea Kapoor</span><span class="testimonial__role">Founder, Meridian Studio</span></footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>“The annual report was the first one our board actually read cover to cover.
+          Calm, clear, and genuinely well designed.”</p>
+          <footer><span class="testimonial__name">Daniel Osei</span><span class="testimonial__role">Communications Lead, Fieldnotes</span></footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>“He asks better questions than most product managers. The interface he
+          designed shipped almost exactly as drawn.”</p>
+          <footer><span class="testimonial__name">Priya Menon</span><span class="testimonial__role">Product Lead, Northbound</span></footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>“Our packaging finally looks like the tea tastes. Thoughtful, unhurried,
+          and it held up perfectly in production.”</p>
+          <footer><span class="testimonial__name">Sam Whitfield</span><span class="testimonial__role">Co-founder, Loam</span></footer>
+        </blockquote>
+      </div>
+
+      <div class="testimonial-controls">
+        <button class="testimonial-btn" id="testPrev" type="button" aria-label="Previous testimonial">←</button>
+        <div class="testimonial-dots" id="testimonialDots"></div>
+        <button class="testimonial-btn" id="testNext" type="button" aria-label="Next testimonial">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <div class="contact__intro">
+        <p class="eyebrow reveal" data-reveal>07 / Contact</p>
+        <h2 class="section-title reveal" data-reveal>Let's design something clear.</h2>
+        <p class="contact__lead reveal" data-reveal>
+          <span class="status-dot" aria-hidden="true"></span>
+          Available for freelance and select full-time roles.
+        </p>
+
+        <div class="contact-cards reveal" data-reveal>
+          <a href="tel:+919831695338" class="contact-card">
+            <span class="contact-card__label">Call</span>
+            <span class="contact-card__value">+91 98316 95338</span>
+          </a>
+          <a href="mailto:abhehackerman@gmail.com" class="contact-card">
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">abhehackerman@gmail.com</span>
+          </a>
+          <a href="https://wa.me/919831695338" target="_blank" rel="noopener" class="contact-card">
+            <span class="contact-card__label">WhatsApp</span>
+            <span class="contact-card__value">Message directly</span>
+          </a>
+        </div>
+
+        <div class="social-row reveal" data-reveal>
+          <a href="#" class="social-link">Behance</a>
+          <a href="#" class="social-link">Dribbble</a>
+          <a href="#" class="social-link">Instagram</a>
+          <a href="#" class="social-link">LinkedIn</a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" data-reveal id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+          <span class="form-error" id="err-name"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+          <span class="form-error" id="err-email"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="project">Project type</label>
+          <select id="project" name="project">
+            <option value="Brand Identity">Brand identity</option>
+            <option value="Editorial & Print">Editorial &amp; print</option>
+            <option value="Packaging">Packaging design</option>
+            <option value="UI/UX">UI / UX design</option>
+            <option value="Other">Something else</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <span class="form-error" id="err-message"></span>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--full">
+          <span class="btn__label">Send message</span>
+          <span class="btn__arrow">→</span>
+        </button>
+
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <a href="#top" class="logo logo--footer">
+      <span class="logo__mark">AS</span>
+      <span class="logo__text">Abhishek&nbsp;Singh</span>
+    </a>
+    <p class="site-footer__tagline">Making ideas legible.</p>
+
+    <ul class="site-footer__nav">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="site-footer__bottom">
+      <span>© <span id="year"></span> Abhishek Singh. All rights reserved.</span>
+      <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">↑ Top</button>
+    </div>
+  </div>
+</footer>
+
+<!-- Project detail modal -->
+<div class="modal" id="projectModal" aria-hidden="true">
+  <div class="modal__backdrop" id="modalBackdrop"></div>
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal__close" id="modalClose" type="button" aria-label="Close project details">×</button>
+    <span class="modal__art" id="modalArt" aria-hidden="true"></span>
+    <p class="eyebrow" id="modalRole"></p>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDesc"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
